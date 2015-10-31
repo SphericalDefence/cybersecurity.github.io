@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Spherical Defence Labs</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top headroom">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- Button for smallest screens -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand" href="index.html"><img height="50" width="50" src="img/logo.png" alt="Spherical Defence"></a>
+          
+        </div>
+        <div class="navbar-collapse collapse">
+            <h1>Spherical Defence Labs</h1>
+          <ul class="nav navbar-nav pull-right">
+            <li><a href="#whatwedo">What We Do</a></li>
+            <li><a href="#threats">Top Threats</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="sidebar-left.html">Left Sidebar</a></li>
+                <li class="active"><a href="sidebar-right.html">Right Sidebar</a></li>
+              </ul>
+            </li> -->
+            <li><a href="#contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="zeroth-slide" src="img/bg_header.jpg" alt="Header">
+          <div class="container" id="head">
+            <div class="carousel-caption">
+              <img height=80 width=80 src="img/logo.png" alt="Spherical Defence">
+              <h1 class="lead">Cyber Security Redefined</h1>
+              <p class="tagline">Vulnerability Assessment and Penetration Testing</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="first-slide" src="img/barclaycard.png" alt="Barclay">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Barclaycard Attack</h1>
+              <p>In 2012 a representative of Barclaycard claimed that <a href="http://www.techworld.com/news/security/barclays-97-percent-of-data-breaches-still-due-sql-injection-3331283/">97% of data breaches</a> are a result of SQL injections.</p>
+              <p><!-- <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a> --></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="img/wsj.png" alt="WSJ">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Wall Street Journal</h1>
+              <p><a href="http://www.pcworld.com/article/2457240/sql-injection-flaw-in-wall-street-journal-database-led-to-breach.html">2014-08</a>: SQL injection exposed database</p>
+              <p><!-- <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a> --></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="img/jhu.png" alt="JHU">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Johns Hopkins University</h1>
+              <p><a href="http://articles.baltimoresun.com/2014-03-07/news/bs-md-hopkins-servers-hacked-20140306_1_engineering-students-identity-theft-server">2014-03</a>: Data published on 878 students from biomedical engineering servers</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="fourth-slide" src="img/wto.png" alt="WTO">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>World Trade Organization</h1>
+              <p><a href="http://securityaffairs.co/wordpress/36528/hacking/anonymous-breached-wto-db.html">2015-05</a>: Personal data on 53,000 people</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="fifth-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="IBM report">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>SQL Injection causes major disruption</h1>
+              <p>2008 saw an incredible <a href="http://www.networkworld.com/article/2261742/lan-wan/2008-was-year-of-the-sql-injection-attack--ibm.html">economic disruption</a> as a result of SQL injections. Even the official United Nations website in 2010 fell victim to a SQL injection attack.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <div class="row featurette text-center" id="whatwedo">
+        <h2 class="thin">Enhance your Security</h2>
+        <p class="lead">We, at Spherical Defence Labs, work to provide top notch security consultancy and services to companies looking to safeguard their digital infrastructure from various cyber attacks.</p>
+      </div>
+
+      <hr class="featurette-divider" id="threats">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <h1 class="text-center thin">Top Threats Today</h1>
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/sql.png" alt="SQL Injection" width="100" height="100">
+          <h4>SQL Injection</h4>
+          <p>SQL injection is a code injection technique, used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution (e.g. to dump the database contents to the attacker).</p>
+          <p><a class="btn btn-default" href="https://en.wikipedia.org/wiki/SQL_injection" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/xss.jpg" alt="Cross-Site Scripting" width="100" height="100">
+          <h4>Cross-Site Scripting</h4>
+          <p>Cross-Site Scripting (XSS) vulnerabilities are a type of computer security vulnerability typically found in Web applications. XSS vulnerabilities enable attackers to inject client-side script into Web pages viewed by other users.</p>
+          <p><a class="btn btn-default" href="https://en.wikipedia.org/wiki/Cross-site_scripting" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/ddos.jpg" alt="DDoS" width="100" height="100">
+          <h4>Denial-of-Service</h4>
+          <p>A denial-of-service (DoS) attack is an attempt to make a machine or network resource unavailable to its intended users, such as to temporarily or indefinitely interrupt or suspend services of a host connected to the Internet.</p>
+          <p><a class="btn btn-default" href="https://en.wikipedia.org/wiki/Denial-of-service_attack" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/buffoverflow.jpg" alt="Buffer Overflow" width="100" height="100">
+          <h4>Buffer Overflow</h4>
+          <p>A buffer overflow, or buffer overrun, is an anomaly where a program, while writing data to a buffer, overruns the buffer's boundary and overwrites adjacent memory locations.</p>
+          <p><a class="btn btn-default" href="https://en.wikipedia.org/wiki/Buffer_overflow" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/csrf.jpg" alt="DDoS" width="100" height="100">
+          <h4>Cross-Site Request Forgery</h4>
+          <p>Cross-site request forgery, abbreviated as CSRF or XSRF, is a type of malicious exploit of a website whereby unauthorized commands are transmitted from a user that the website trusts.</p>
+          <p><a class="btn btn-default" href="https://en.wikipedia.org/wiki/Cross-site_request_forgery" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/rfi.jpg" alt="DDoS" width="100" height="100">
+          <h4>Remote File Inclusion</h4>
+          <p>File inclusion vulnerability is a type of vulnerability most often found on websites. It allows an attacker to include a file, usually through a script on the web server.</p>
+          <p><a class="btn btn-default" href="https://en.wikipedia.org/wiki/File_inclusion_vulnerability" role="button">View details &raquo;</a></p>
+        </div>
+      </div><!-- /.row -->
+      <h3 class="text-center thin">Check out the Open Web Application Security Project's report <a href="https://www.owasp.org/index.php/Top_10_2013-Top_10">here</a>.</h3>
+
+      <hr class="featurette-divider" id="about">
+      <h1 class="text-center">Our Team</h1><br><br><br>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Dishant<br><span class="text-muted">President - Sales</span></h2>
+          <p class="lead">The leading Co-Founder of Sperical Defence Labs, Dishant heads Sales and manages clients.<br><br><a href="mailto:dishant@sphericaldefence.com">dishant@sphericaldefence.com</a></p>
+        </div>
+        <!-- <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/dishant.jpg" alt="Generic placeholder image">
+        </div> -->
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Rohan<br><span class="text-muted">President - Technology</span></h2>
+          <p class="lead">Rohan works with Nirvik and Vasuman on testing clients' systems while heading the tech division of Spherical Defence.<br><br><a href="mailto:rohan@sphericaldefence.com">rohan@sphericaldefence.com</a></p>
+        </div>
+        <!-- <div class="col-md-5 col-md-pull-7">
+          <img id="rRandom" class="featurette-image img-responsive center-block" src="" alt="Generic placeholder image">
+        </div> -->
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Vasuman<br><span class="text-muted">President - R&amp;D</span></h2>
+          <p class="lead">Vasuman specializes in mobile security and headss the research division to develop industry leading software for penetration testing and systems defence.<br><br><a href="mailto:vasuman@sphericaldefence.com">vasuman@sphericaldefence.com</a></p>
+        </div>
+        <!-- <div class="col-md-5">
+          <img id="vRandom" class="featurette-image img-responsive center-block" src="" alt="Generic placeholder image">
+        </div> -->
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Nirvik<br><span class="text-muted">President - Operations</span></h2>
+          <p class="lead">Nirvik heads operations and works to providing security to our current clients at Spherical Defence.<br><br><a href="mailto:nirvik@sphericaldefence.com">nirvik@sphericaldefence.com</a></p>
+        </div>
+        <!-- <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="img/nirvik.jpg" alt="Generic placeholder image">
+        </div> -->
+      </div>
+
+      <hr class="featurette-divider">
+
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015 Spherical Defence Labs, LLC &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.min.js"></script>
+    <script src="js/headroom.min.js"></script>
+    <script src="js/jQuery.headroom.min.js"></script>
+    <script src="js/template.js"></script>
+    <script type="text/javascript">
+      v = document.getElementById('vRandom');
+      r = document.getElementById('rRandom');
+      r.src="img/rohan"+Math.floor((Math.random() * 2) + 1)+".jpg";
+      v.src="img/vasu"+Math.floor((Math.random() * 7) + 1)+".jpg";
+    </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>
