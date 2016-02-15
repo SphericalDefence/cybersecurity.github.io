@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(img/metal.jpg);
+	background-image: url(img/bg-home.jpg);
 }
 
 .fixed {
@@ -14,12 +14,12 @@ body {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: stretch;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.8);
 	box-shadow: 0 0 15px black;
 }
 
 .headpad {
-	height: 2.6em;
+	height: 3.0em;
 }
 
 .links {
@@ -58,7 +58,8 @@ a.ref:hover {
 .logo > img {
 	margin-left: auto;
 	margin-right: auto;
-	max-height: 320px
+
+	max-height: 380px
 }
 
 .main > section {
@@ -70,9 +71,11 @@ a.ref:hover {
 }
 
 .main > section:nth-child(2n) {
-	background-color: rgba(0, 0, 0, 0.9);
-	color: white;
+
+	background-color: rgba(0, 0, 0, .5);
 	box-shadow: 0 0 10px black;
+	color:white;
+	
 }
 
 .header {
@@ -131,6 +134,7 @@ a.ref:hover {
 
 .address {
 	margin: 1em;
+	color: white
 }
 
 @media (max-width: 420px) {
